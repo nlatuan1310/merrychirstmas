@@ -42,15 +42,15 @@ html {
   body img {
     position: absolute;
     padding: 0;
-    top: 25%;
-    left: 10%;
+    top: 20%;
+    left: 40%;
     margin: 50px auto 0;
   }
   body .container {
     position: absolute;
     padding: 0;
-    top: calc(50% - (420px / 2));
-    left: calc(50% - (380px / 2));
+    top: 20%;
+    left: 70%;
     min-width: 380px;
     height: 430px;
     margin: 50px auto 0;
@@ -249,6 +249,191 @@ html {
   
   .star ~ .light {
     background: #eae486;
+  }
+  body .container2 {
+    position: absolute;
+    padding: 0;
+    top: 20%;
+    left: 0%;
+    min-width: 380px;
+    height: 430px;
+    margin: 50px auto 0;
+  }
+  body .container2 * {
+    position: absolute;
+  }
+  body .container2 .star {
+    top: 5px;
+    left: calc(50% - 26px);
+    display: block;
+    color: red;
+    width: 0px;
+    height: 0px;
+    border-right: 25px solid transparent;
+    border-bottom: 17px solid #f8cd13;
+    border-left: 25px solid transparent;
+    -moz-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+  }
+  body .container2 .star:before {
+    border-bottom: 20px solid #f8cd13;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -14px;
+    left: -16px;
+    display: block;
+    content: "";
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+  }
+  body .container2 .star:after {
+    position: absolute;
+    display: block;
+    color: red;
+    top: 0px;
+    left: -25px;
+    width: 0px;
+    height: 0px;
+    border-right: 25px solid transparent;
+    border-bottom: 17px solid #f8cd13;
+    border-left: 25px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+    content: "";
+  }
+  body .container2 .light {
+    height: 5px;
+    width: 3px;
+    border-radius: 50% 50% 50% 50% / 70% 70% 30% 30%;
+  }
+  body .container2 .light:nth-of-type(1) {
+    top: 40px;
+    left: 194px;
+  }
+  body .container2 .light:nth-of-type(2) {
+    top: 72px;
+    left: 178px;
+  }
+  body .container2 .light:nth-of-type(3) {
+    top: 88px;
+    left: 148px;
+  }
+  body .container2 .light:nth-of-type(4) {
+    top: 80px;
+    left: 216px;
+  }
+  body .container2 .light:nth-of-type(5) {
+    top: 120px;
+    left: 220px;
+  }
+  body .container2 .light:nth-of-type(6) {
+    top: 144px;
+    left: 246px;
+  }
+  body .container2 .light:nth-of-type(7) {
+    top: 120px;
+    left: 170px;
+  }
+  body .container2 .light:nth-of-type(8) {
+    top: 130px;
+    left: 132px;
+  }
+  body .container2 .light:nth-of-type(9) {
+    top: 146px;
+    left: 190px;
+  }
+  body .container2 .light:nth-of-type(10) {
+    top: 180px;
+    left: 220px;
+  }
+  body .container2 .light:nth-of-type(11) {
+    top: 196px;
+    left: 262px;
+  }
+  body .container2 .light:nth-of-type(12) {
+    top: 176px;
+    left: 150px;
+  }
+  body .container2 .light:nth-of-type(13) {
+    top: 196px;
+    left: 110px;
+  }
+  body .container2 .light:nth-of-type(14) {
+    top: 210px;
+    left: 170px;
+  }
+  body .container2 .light:nth-of-type(15) {
+    top: 218px;
+    left: 220px;
+  }
+  body .container2 .light:nth-of-type(16) {
+    top: 250px;
+    left: 190px;
+  }
+  body .container2 .light:nth-of-type(17) {
+    top: 240px;
+    left: 260px;
+  }
+  body .container2 .light:nth-of-type(18) {
+    top: 268px;
+    left: 290px;
+  }
+  body .container2 .light:nth-of-type(19) {
+    top: 270px;
+    left: 230px;
+  }
+  body .container2 .light:nth-of-type(20) {
+    top: 276px;
+    left: 150px;
+  }
+  body .container2 .light:nth-of-type(21) {
+    top: 240px;
+    left: 120px;
+  }
+  body .container2 .light:nth-of-type(22) {
+    top: 266px;
+    left: 84px;
+  }
+  body .container2 .light:nth-of-type(23) {
+    top: 316px;
+    left: 60px;
+  }
+  body .container2 .light:nth-of-type(24) {
+    top: 300px;
+    left: 106px;
+  }
+  body .container2 .light:nth-of-type(25) {
+    top: 334px;
+    left: 130px;
+  }
+  body .container2 .light:nth-of-type(26) {
+    top: 314px;
+    left: 176px;
+  }
+  body .container2 .light:nth-of-type(27) {
+    top: 336px;
+    left: 216px;
+  }
+  body .container2 .light:nth-of-type(28) {
+    top: 310px;
+    left: 250px;
+  }
+  body .container2 .light:nth-of-type(29) {
+    top: 310px;
+    left: 300px;
+  }
+  body .container2 .light:nth-of-type(30) {
+    top: 338px;
+    left: 280px;
   }
   
   /* Number of lights */
